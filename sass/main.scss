@@ -39,6 +39,7 @@ body {
 .logo {
     @include center;
     top: -20vh;
+    left: 10vmin;
     .box-1 {
         @include center;
         width: 30vmin;
@@ -89,6 +90,7 @@ body {
 
 .title {
     margin-top: 55vh;
+    margin-left: 10vmin;
     font-size: 7.5vmin;
     text-align: center;
     font-family: $roboto-mono-font;
